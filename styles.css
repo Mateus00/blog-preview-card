@@ -72,15 +72,19 @@ main {
 }
 
 .title {
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.title h1 {
   font-family: "figtree-extrabold";
   font-size: 20px;
   line-height: 150%;
   color: #111111;
-  transition: 0.2s;
-  cursor: pointer;
 }
 
-.title:hover {
+.title:hover h1 {
   color: #f4d04e;
 }
 
